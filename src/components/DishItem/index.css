@@ -1,0 +1,132 @@
+.dish-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #d7dfe9;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.type-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 30px;
+  height: 30px;
+  margin-right: 16px;
+  align-self: flex-start;
+  border: 1px solid;
+}
+
+.veg-box {
+  border-color: #0a9650;
+}
+
+.non-veg-box {
+  border-color: #9b2527;
+}
+
+.type-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.veg-dot {
+  background-color: #0a9650;
+}
+
+.non-veg-dot {
+  background-color: #9b2527;
+}
+
+.dish-details-container {
+  flex-grow: 1;
+  margin-right: 16px;
+}
+
+.dish-name {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+.dish-currency-price {
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 12px 0;
+}
+
+.dish-description {
+  color: #94a3b8;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 0 0 16px 0;
+}
+
+.quantity-container {
+  display: flex;
+  align-items: center;
+  background-color: #2e7d0e;
+  width: fit-content;
+  border-radius: 24px;
+  padding: 6px 16px;
+  margin-bottom: 10px;
+}
+
+.quantity-button {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.quantity {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 14px;
+}
+
+.not-available-text {
+  color: #ef4444;
+  font-size: 14px;
+  margin: 0;
+}
+
+.customizations-text {
+  color: #6c3df4;
+  font-size: 14px;
+  margin: 4px 0 0 0;
+}
+
+.dish-calories {
+  color: #ffa500;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 16px;
+  min-width: 90px;
+}
+
+.dish-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .dish-image {
+    width: 150px;
+    height: 150px;
+  }
+
+  .dish-calories {
+    min-width: 200px;
+  }
+}
